@@ -30,6 +30,8 @@ body {
         margin-bottom: 20px;
         border: 4px solid black;
         border-radius: 5px;
+        font-weight: bold;
+        font-size: 38px;
     }
     button {
         color: $second-color;
@@ -41,9 +43,6 @@ body {
         border-radius: 30%;
         background: none;
         cursor: pointer;
-    }
-    .last-btn {
-        width: 156px;
     }
 }
 
