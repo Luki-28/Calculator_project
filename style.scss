@@ -1,3 +1,6 @@
+$main-color: #fff7e9;
+$second-color: #ff731d;
+
 *,
 *::before,
 *::after {
@@ -9,5 +12,38 @@
 
 body {
     font-family: monospace;
+    background-color: $main-color;
+}
+
+.calculator {
+    width: 600px;
+    padding: 50px;
+    text-align: center;
+    h1 {
+        color: $second-color;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+    .result {
+        height: 80px;
+        width: 324px;
+        margin-bottom: 20px;
+        border: 4px solid black;
+        border-radius: 5px;
+    }
+    button {
+        color: $second-color;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100px;
+        margin:2.5px;
+        height: 60px;
+        border-radius: 30%;
+        background: none;
+        cursor: pointer;
+    }
+    .last-btn {
+        width: 156px;
+    }
 }
 
